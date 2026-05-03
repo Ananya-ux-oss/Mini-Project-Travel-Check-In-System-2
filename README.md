@@ -27,6 +27,15 @@ The main goal of this project is to practice and understand key OOP concepts fro
 - Reference vs Object behavior
 - IS-A relationship
 
+  How It Works
+
+- Passenger is the main parent class  
+- Other classes (Regular, VIP, Staff) extend it  
+- Each class has its own version of the checkIn() method  
+- In the main class, all objects are stored using a parent reference  
+- At runtime, Java decides which method to run based on the actual object  
+
+
 Project Structure
 
 TravelCheckInSystem/
